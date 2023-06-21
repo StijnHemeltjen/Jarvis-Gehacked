@@ -1,0 +1,118 @@
+body {
+    background-color: white;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    justify-content: space-between;
+    background-color: darkblue  ;
+}
+.LittleNavBar {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 15px;
+    background-color: lightblue;
+    border-radius: 10px;
+    width: 100px;
+}
+.logo {
+    display: flex;
+}
+.MiddleButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 250px;
+    padding-right: 150px;
+    flex: 1;
+}
+.RightButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-right: 50px;
+}
+.navvie {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    gap: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+
+}
+.eerste{
+    padding-top: 10px;
+    width: 80px;
+    align-items: baseline;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+.tweede , .derde, .vierde, .vijfde{
+    padding-top: 10px;
+    width: 80px;
+    align-items: baseline;
+    padding-bottom: 15px;
+}
+.vijfde {
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 650px;
+    background-color:rgb(242, 240, 240);
+}
+
+.columnleft {
+    width: 40%;
+}
+
+.columnmiddle {
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.columnright {
+    width: 60%;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.box{
+    display: flex;
+    width: 275px;
+    height: 475px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 3px 3px darkgray;
+    background-color: white;
+    flex-direction: column;
+}
+.boxmiddle{
+    display: flex;
+    width: 750px;
+    height: 300px;
+    border-radius: 2px;
+    box-shadow: 3px 3px darkgray;
+    background-color: white;
+    flex-direction: column;
+    gap: 40px;
+    padding-right: 25px;
+
+}
+
+table {
+    border-collapse: collapse;
+    border-bottom: 1px solid darkgray;
+}
+.groeien {
+    padding-top: 100px;
+}
